@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sample Exam</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    .timer { font-size: 20px; font-weight: bold; color: red; }
+    .question { margin-top: 20px; }
+    button { margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<h1>Sample Timed Exam</h1>
+<div class="timer" id="timer"></div>
+
+<div class="question" id="question"></div>
+<div id="options"></div>
+
+<button onclick="nextQuestion()">Next</button>
+
+<script src="questions.js"></script>
+<script src="exam.js"></script>
+</body>
+</html>
